@@ -1,0 +1,145 @@
+@charset "utf-8";
+*:not(body) {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+button:focus {
+  outline:none;
+}
+a{
+  text-decoration: none;
+  border: none;
+  color: #333;
+}
+.bg-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.w-100 {width: 100%;}
+.my-10{
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+.mt-10{
+  margin-top: 10em;
+}
+.mb-10{
+  margin-bottom: 10em;
+}
+.img-round {
+  border-radius: 20px;
+}
+.bg-d{
+  background-color: #333;
+}
+.bg-l{
+  background-color: #bbb;
+}
+.ft-d{
+  background-color: #333;
+}
+.ft-l{
+  background-color: #bbb;
+}
+
+
+
+/*element tag*/
+button {
+  border: none;
+  background-color: transparent;
+}
+input {
+  border: none;
+  border-radius: 4px;
+  color: #bbb;
+  font-size: 0.8em;
+  padding: 0.3em 0.7em;
+}
+footer {
+  padding: 10em 0em;
+}
+
+
+/*element class and id*/
+/*index.html*/
+#logo {
+  width: 2em;
+  padding:0.2em 0;
+}
+.search_img {
+   width: 2em; 
+}
+#about p {
+  font-size: 1.45em;
+}
+.icon {
+  width: 2.5em;
+  margin-right: 1em;
+}
+.icon:nth-last-child(1) {
+  width: 2.5em;
+  margin-right: 0em;
+}
+.mynav {
+  transition: .4s;
+}
+.mynav:hover {
+  border-bottom: .15em solid #ddd;
+}
+
+/*products.html*/
+#products-prev, #products-next {
+  width: 50px;
+}
+.price {
+  font-size: 3em;
+  font-weight: 600;
+}
+.recommend-card h2 {
+  font-weight: 500;
+}
+.prev, .next {
+  width: 5em;
+  max-width: 3vw;
+  min-width: 25px;
+}
+.pro-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: .5s;
+}
+.pro-btn:hover {
+  background-color: #F4F3F3;
+}
+.pro-btn:focus {
+  outline: none;
+}
+
+/*support.html*/
+.faq-btn{
+  font-weight: 600;
+  color: #3f3f3f;
+}
+#help .text{
+  font-size: 24px;
+  font-weight:500;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+#help .help-icon {
+  width: 80%;
+}
+.sup-icon{
+  border-radius: 30px;
+  /* padding: 20px 35px; */
+  cursor: pointer;
+  bottom:0px;
+  transition: .5s;
+}
+.sup-icon:hover{
+  bottom: 5px;
+  background-color: #F4F3F3;
+}

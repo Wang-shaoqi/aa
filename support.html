@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>狂響宇宙</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="js/vendor/gsap.min.js"></script>
+    <script src="js/vendor/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top container-fluid bg-white navbar-light">
+        <div class="container">
+          <a class="navbar-brand" id="logo" href="index.html"><img class="w-100" src="images/Logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="mynav nav-item mx-2 dropdown">
+                <a class="nav-link px-0 dropdown-toggle" href="products.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">商品</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="products.html">鋼琴</a>
+                  <a class="dropdown-item" href="products.html">打擊樂（鼓）</a>
+                  <a class="dropdown-item" href="products.html">弦樂器</a>
+                  <a class="dropdown-item" href="products.html">管樂</a>
+                </div>
+              </li>
+              <li class="mynav nav-item mx-2">
+                <a class="nav-link px-0" href="support.html">支援 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="mynav nav-item mx-2">
+                <a class="nav-link px-0" href="#">門店</a>
+              </li>
+              <li class="mynav nav-item mx-2">
+                <a class="nav-link px-0" href="#footer">更多</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center my-2 mg-md-0">
+              <input id="search_input" class="mr-2 border" type="search" placeholder="搜尋">
+              <button> <img class="search_img" src="images/search_btn.png" alt=""></button>
+            </div>
+          </div>
+        </div>
+        
+      </nav>
+    </header>
+    
+    <div class="container">
+        <div class="accordion my-10" id="FAQ">   
+          <div class="text-md-left text-center">
+            <h2 class="faq-title font-weight-bold mb-5">常見問題</h2>
+          </div>
+          <div class="card">
+            <div class="card-header" id="q1">
+              <h5>
+                <button class="faq-btn" type="button" data-toggle="collapse" data-target="#c1" aria-expanded="true" aria-controls="c1">
+                  有提供樂器維修服務嗎？
+                </button>
+              </h5>
+            </div>
+            <div id="c1" class="collapse" aria-labelledby="q1" data-parent="#FAQ">
+              <div class="card-body">
+                是的，我們有專業的維修服務，包括調音、維修和保養。
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="q2">
+              <h5>
+                <button class="faq-btn" type="button" data-toggle="collapse" data-target="#c2" aria-expanded="true" aria-controls="c2">
+                  有沒有租賃樂器的選項？ 
+                </button>
+              </h5>
+            </div>
+            <div id="c2" class="collapse" aria-labelledby="q2" data-parent="#FAQ">
+              <div class="card-body">
+                是的，我們提供樂器租賃服務，這是一個理想的選擇，特別是對於學生和初學者。
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="q3">
+              <h5>
+                <button class="faq-btn" type="button" data-toggle="collapse" data-target="#c3" aria-expanded="true" aria-controls="c3">
+                  是否有樂器教學課程？
+                </button>
+              </h5>
+            </div>
+            <div id="c3" class="collapse" aria-labelledby="q3" data-parent="#FAQ">
+              <div class="card-body">
+                是的，我們經營音樂教室，提供各種樂器的專業教學服務。
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="q4">
+              <h5>
+                <button class="faq-btn" type="button" data-toggle="collapse" data-target="#c4" aria-expanded="true" aria-controls="c4">
+                  有關音響設備的建議嗎？ 
+                </button>
+              </h5>
+            </div>
+            <div id="c4" class="collapse" aria-labelledby="q4" data-parent="#FAQ">
+              <div class="card-body">
+                當然，我們的專業人員可以為您提供適合您需求的音響設備建議和配置。
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="q5">
+              <h5>
+                <button class="faq-btn" type="button" data-toggle="collapse" data-target="#c5" aria-expanded="true" aria-controls="c5">
+                  您接受信用卡支付嗎？
+                </button>
+              </h5>
+            </div>
+            <div id="c5" class="collapse" aria-labelledby="q5" data-parent="#FAQ">
+              <div class="card-body">
+                是的，我們接受多種支付方式，包括信用卡、現金和網上支付。
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="q6">
+              <h5>
+                <button class="faq-btn" type="button" data-toggle="collapse" data-target="#c6" aria-expanded="true" aria-controls="c6">
+                  我可以試奏樂器嗎？ 
+                </button>
+              </h5>
+            </div>
+            <div id="c6" class="collapse" aria-labelledby="q6" data-parent="#FAQ">
+              <div class="card-body">
+                當然，我們鼓勵您試奏樂器，以確保您選擇的樂器符合您的需求和喜好。
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    
+    
+   
+
+
+    <hr>
+    <!--更多幫助-->
+    <div id="help" class="container my-10">
+      <div class="row justify-content-md-between justify-content-center">
+        <div class="col-12 text-md-left text-center">
+          <h2 class="font-weight-bold mb-5">更多幫助</h2>
+        </div>
+        <div class="sup-icon col-md-2 col-7 my-md-0 my-5 text-center">
+          <img class="help-icon" src="images/help-online-service.png" alt="">
+          <p class="text">缐上客服</p>
+        </div>
+        <div class="sup-icon col-md-2 col-7 my-md-0 my-5 text-center">
+          <img class="help-icon" src="images/help-fix.png" alt="">
+          <p class="text">預約維修</p>
+        </div>
+        <div class="sup-icon col-md-2 col-7 my-md-0 my-5 text-center">
+          <img class="help-icon" src="images/help-account.png" alt="">
+          <p class="text">賬號設置</p>
+        </div>
+        <div class="sup-icon col-md-2 col-7 my-md-0 my-5 text-center">
+          <img class="help-icon" src="images/help-infomation.png" alt="">
+          <p class="text">説明書</p>
+        </div>
+      </div>
+    </div>
+    
+    <hr>
+    
+    <footer id="footer" class="bg-white">
+      <div class="container">
+        <div class="row justify-content-md-between justify-content-center align-content-center">
+          <div class="col-md-6 col-9">
+            <h5 class="mb-3">訂閱最新資訊</h5>
+            <form class="form-inline my-2 my-md-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="輸入E-mail" aria-label="Search">
+              <button class="btn my-2 my-sm-0 btn-light" type="submit">確認</button>
+            </form>
+            <p class="mt-4">Copyright © 2023 Rhapsody Music Inc. 保留一切權利。</p>
+          </div>
+          <div class="col-lg-4 col-md-5 col-9 mt-md-0 mt-5">
+            <h5 class="mb-3">聯絡我們</h5>
+            <div class="d-flex">
+              <img class="icon" src="images/icon_fb.png" alt="">
+              <img class="icon" src="images/icon_ins.png" alt="">
+              <img class="icon" src="images/icon_line.png" alt="">
+              <img class="icon" src="images/icon_telephone.png" alt="">
+              <img class="icon" src="images/icon_mail.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
